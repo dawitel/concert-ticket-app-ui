@@ -206,6 +206,22 @@ export default function Home() {
                 height={200}
               />
             </div>
+            <div>
+              <h3 className="text-lg font-bold pt-6">Notes</h3>
+              <p className="text-lg text-muted-foreground mt-3">
+                If a ticket is Not found, it means the ticket does not exist in
+                the system. you will see a screen with a message indicating that
+                the ticket was not found.
+              </p>
+              <Image
+                src="/step5.jpg"
+                alt="note ticket not found"
+                className="mt-2 w-full rounded-md border"
+                layout="responsive"
+                width={300}
+                height={200}
+              />
+            </div>
           </div>
         </SheetContent>
       </Sheet>
